@@ -1,3 +1,5 @@
+PRAGMA foreign_keys = ON;
+
 CREATE TABLE Departamento (
     dept_id INTEGER PRIMARY KEY AUTOINCREMENT,
     nome_departamento TEXT NOT NULL,
